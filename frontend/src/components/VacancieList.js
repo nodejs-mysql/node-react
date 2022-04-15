@@ -39,7 +39,7 @@ const VacancieList = () => {
                 <tbody>
                     { vacancies.map((vacancie, index) => (
                         <tr key={ vacancie.id }>
-                            <td>{ index + 1 }</td>
+                            <td>{ vacancie.id }</td>
                             <td>{ vacancie.company_vacancies }</td>
                             <td>{ vacancie.occupation_vacancies }</td>
                             <td>{ vacancie.location_vacancies }</td>

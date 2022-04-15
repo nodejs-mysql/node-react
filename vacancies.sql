@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Tempo de geração: 14/04/2022 às 04:45
+-- Tempo de geração: 15/04/2022 às 09:01
 -- Versão do servidor: 10.4.24-MariaDB
 -- Versão do PHP: 7.4.28
 
@@ -46,19 +46,11 @@ CREATE TABLE `vacancies` (
 
 INSERT INTO `vacancies` (`id`, `company_vacancies`, `occupation_vacancies`, `location_vacancies`, `payment_vacancies`, `journey_vacancies`, `experience_vacancies`, `note_vacancies`, `createdAt`, `updatedAt`) VALUES
 (1, 'Plataforma Internacional', 'Desenvolvedor Web', 'Alphaville SP', 'a combinar', 'Seg a Sex', '1 - 2 Anos', 'Trabalhar nas plataformas do ecossistema.', '0000-00-00', '0000-00-00'),
-(4, 'aaaa', 'ssss2', NULL, NULL, NULL, NULL, NULL, '2022-04-14', '2022-04-14'),
-(6, 'qqqq', 'qqqq23', NULL, NULL, NULL, NULL, NULL, '2022-04-14', '2022-04-14'),
-(7, 'qweqwe', 'qweqweq', NULL, NULL, NULL, NULL, NULL, '2022-04-14', '2022-04-14'),
-(8, 'dddd', 'fff', NULL, NULL, NULL, NULL, NULL, '2022-04-14', '2022-04-14'),
-(9, 'asd', 'asdasd', NULL, NULL, NULL, NULL, NULL, '2022-04-14', '2022-04-14'),
-(10, 'rrrrrrr', '', NULL, NULL, NULL, NULL, NULL, '2022-04-14', '2022-04-14'),
-(11, 'asdasd', '', NULL, NULL, NULL, NULL, NULL, '2022-04-14', '2022-04-14'),
-(12, 'ggg', '', NULL, NULL, NULL, NULL, NULL, '2022-04-14', '2022-04-14'),
-(13, '', '', NULL, NULL, NULL, NULL, NULL, '2022-04-14', '2022-04-14'),
-(14, '1', '2a', '3', NULL, NULL, NULL, NULL, '2022-04-14', '2022-04-14'),
-(15, '', '', '', '', '', '', '', '2022-04-14', '2022-04-14'),
-(16, '1', '2', '3', '4', '5', '6', '7', '2022-04-14', '2022-04-14'),
-(17, '', '', '', '', '', '', '', '2022-04-14', '2022-04-14');
+(4, 'Plataforma Multi', 'Analista de Banco de Dados', 'Jandira SP', 'a combinar', 'Seg a Sex', '2 - 3 Anos', 'Analisar todos os dados projetos', '2022-04-14', '2022-04-14'),
+(7, 'Plataforma Max', 'Programador JAVA', 'Osasco SP', 'a combinar', 'Seg a Sex', '1 - 4 Anos', 'Criar app para android', '2022-04-14', '2022-04-15'),
+(16, 'Plataforma Super', 'Analista BI', 'Carapicuiba SP', 'a combinar', 'Seg a Sex', '1 - 2 Anos', 'Implantação de sistema', '2022-04-14', '2022-04-15'),
+(17, 'Plataforma White Label', 'Programador PHP', 'Jardim Belval SP', 'a combinar', 'Seg a Sex', '6 - 7 Anos', 'Desenvolver sites', '2022-04-14', '2022-04-14'),
+(18, 'Plataforma Comércio', 'Suporte de Rede', 'Silveira SP', 'a combinar', 'Seg a Sex', '8 - 9 Anos', 'Estruturar cabeamentos', '2022-04-14', '2022-04-14');
 
 --
 -- Índices para tabelas despejadas
@@ -78,7 +70,7 @@ ALTER TABLE `vacancies`
 -- AUTO_INCREMENT de tabela `vacancies`
 --
 ALTER TABLE `vacancies`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=18;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=32;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

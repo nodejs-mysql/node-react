@@ -7,7 +7,7 @@ import {
     updateVacancie,
     deleteVacancie
 } from "../controllers/Vacancies.js";
- 
+
 const router = express.Router();
  
 router.get('/', getAllVacancies);
